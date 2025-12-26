@@ -67,6 +67,12 @@ Percentage of code that is executed by unit tests.
 Coverage = (Lines covered by tests / Lines to cover) × 100
 ```
 
+Unit testing will give us a JSON report
+* Total test cases executed
+* How many passed, How many failed
+
+This report should be uploaded to SonarQube server through agent.
+
 ### 🔒 Security Rating
 Rating based on severity of vulnerabilities
 
